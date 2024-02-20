@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static io.everyonecodes.java.t3_testing.consolidation_exercises.exercise2.service_classes.ListCreator.createList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ListCreatorTest {
@@ -24,7 +23,11 @@ public class ListCreatorTest {
     @MethodSource("parameters_createList")
 
     void createListTest(int input , List<Integer> expected){
-        List<Integer> result = createList(input);
+
+        ListCreator listCreator = new ListCreator();
+
+        List<Integer> result = listCreator.createList(input);
+
         assertEquals(expected, result);
     }
 

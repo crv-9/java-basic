@@ -1,10 +1,10 @@
-package io.everyonecodes.java.t3_testing.consolidation_exercises.exercise1b;
+package io.everyonecodes.java.t3_testing.consolidation_exercises.exercise1;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import static io.everyonecodes.java.t3_testing.consolidation_exercises.exercise1b.service_classes.NumberSorter.returnGreatestNumber;
+import static io.everyonecodes.java.t3_testing.consolidation_exercises.exercise1.service_classes.NumberSorter.returnGreatestNumber;
 
 public class Main {
     public static void main(String[] args) {

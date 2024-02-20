@@ -1,4 +1,4 @@
-package io.everyonecodes.java.t3_testing.consolidation_exercises.exercise5;
+package io.everyonecodes.java.t3_testing.consolidation_exercises.exercise5.service_classes;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package io.everyonecodes.java.t3_testing.consolidation_exercises.exercise1b.service_classes;
+package io.everyonecodes.java.t3_testing.consolidation_exercises.exercise1.service_classes;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static io.everyonecodes.java.t3_testing.consolidation_exercises.exercise1b.service_classes.NumberSorter.returnGreatestNumber;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class NumberSorterTest {
@@ -26,7 +25,11 @@ public class NumberSorterTest {
     @ParameterizedTest
     @MethodSource("parameters_gatherNumbers")
     void findGreatest(List<Integer> input, double expected){
-        int result = returnGreatestNumber(input);
+
+        NumberSorter numberSorter = new NumberSorter();
+
+        int result = numberSorter.returnGreatestNumber(input);
+
         assertEquals(expected, result);
 
     }

@@ -7,7 +7,6 @@ import org.junit.jupiter.params.provider.MethodSource;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static io.everyonecodes.java.t3_testing.consolidation_exercises.exercise4.service_classes.TrueCounter.countTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TrueCounterTest {
@@ -26,7 +25,10 @@ public class TrueCounterTest {
     @MethodSource("parameters_countTrue")
     void countTrueTest(List<Boolean> input, int expected){
 
-        int result = countTrue(input);
+        TrueCounter trueCounter = new TrueCounter();
+
+
+        int result = trueCounter.countTrue(input);
 
         assertEquals(expected, result);
 

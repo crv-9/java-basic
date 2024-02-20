@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static io.everyonecodes.java.t3_testing.consolidation_exercises.exercise2.service_classes.Addition.addNumbers;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AdditionTest {
@@ -24,7 +23,11 @@ public class AdditionTest {
     @ParameterizedTest
     @MethodSource("parameters_AddNumbers")
     void addNumbersTest(List<Integer> input, int expected){
-        int result = addNumbers(input);
+
+        Addition addition = new Addition();
+
+        int result = addition.addNumbers(input);
+
         assertEquals(expected, result);
     }
 

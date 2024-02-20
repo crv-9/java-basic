@@ -4,11 +4,8 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.stream.Stream;
 
-import static io.everyonecodes.java.t3_testing.consolidation_exercises.exercise3.service_classes.PyramidMaker.makePyramid;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PyramidMakerTest {
@@ -36,7 +33,9 @@ public class PyramidMakerTest {
     @MethodSource("parameters_makePyramid")
     void makePyramidTest(int input, String expected){
 
-        String result = makePyramid(input);
+        PyramidMaker pyramidMaker = new PyramidMaker();
+
+        String result = pyramidMaker.makePyramid(input);
 
         assertEquals(expected, result);
     }

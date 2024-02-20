@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static io.everyonecodes.java.t3_testing.consolidation_exercises.exercise2.service_classes.Multiplier.multiplyNumbers;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MultiplierTest {
@@ -23,7 +22,11 @@ public class MultiplierTest {
     @ParameterizedTest
     @MethodSource("parameters_AddNumbers")
     void addNumbersTest(List<Integer> input, int expected){
-        int result = multiplyNumbers(input);
+
+        Multiplier multiplier = new Multiplier();
+
+        int result = multiplier.multiplyNumbers(input);
+
         assertEquals(expected, result);
     }
 }
