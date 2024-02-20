@@ -15,7 +15,7 @@ public class PyramidMakerTest {
 
     static Stream<Arguments> parameters_makePyramid(){
         return Stream.of(
-                Arguments.of(-11, "1\n"),
+                Arguments.of(-1, "1\n"),
                 Arguments.of(1, "1\n"),
                 Arguments.of(2, " 1\n"+"12\n"),
                 Arguments.of(3,"  1\n" +" 12\n" + "123\n"),
