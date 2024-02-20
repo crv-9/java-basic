@@ -26,7 +26,7 @@ public class NumberSorterTest {
     @ParameterizedTest
     @MethodSource("parameters_gatherNumbers")
     void findGreatest(List<Integer> input, double expected){
-        var result = returnGreatestNumber(input);
+        int result = returnGreatestNumber(input);
         assertEquals(expected, result);
 
     }
