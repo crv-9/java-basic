@@ -3,9 +3,9 @@ Peer review with Sarah, Ali & Kevin
 
 tl:dr;
 Main differences:
-1. Ali uses the simple @Test, I use
-2.
-3.
+1. Ali uses the simple @Test, I usually use Streams and @ParameterizedTest
+2. Sarah uses several service classes to split the testing and functionality of each
+3. Kevin focused more on creating the tests and skipped using a Main or Application class
 
 
 ------------------
