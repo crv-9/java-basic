@@ -1,0 +1,39 @@
+Peer review with Sarah, Ali & Kevin
+22.02.2024
+
+tl:dr;
+Main differences:
+1. Ali uses the simple @Test, I use
+2.
+3.
+
+
+------------------
+Exercise-specific comparisons and comments
+------------------
+
+>> Exercise 1
+- Kevin didn't have a main
+- Sarah used a find min and max value
+- I used the sorting algorithm
+
+
+>> Exercise 2
+- Ali did all the operations in one class
+- Sarah, like me, also has separated classes for each operation
+- Sarah uses factorial
+
+>> Exercise 3
+- Ali used a simple test, not like me, as I used a parametarized test to cover more numbers
+
+>> Exercise 4
+- Same code
+
+>> Exercise 5
+- Ali uses the normal test, without using streams
+- Ali has several private methods that contribute to the greater method
+
+>> Exercise 8
+>> Kevin did the average in another private method
+
+

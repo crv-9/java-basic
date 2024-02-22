@@ -11,7 +11,7 @@ public class PyramidMaker {
         }
 
         for (int i = 1; i <= base; i++) {
-            // Here I print spaces before the numbers
+            // Here I add spaces before the numbers
             for (int j = 1; j <= base - i; j++) {
                 outputText.append(" ");
             }

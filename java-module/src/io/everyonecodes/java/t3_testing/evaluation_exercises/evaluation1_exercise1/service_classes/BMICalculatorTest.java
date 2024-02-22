@@ -39,7 +39,6 @@ public class BMICalculatorTest {
                 Arguments.of(new UserBMI("Lisa", 180, 70), "You have a normal body weight."),
                 Arguments.of(new UserBMI("Lisa", 180 , 90), "You are overweight."),
                 Arguments.of(new UserBMI("Lisa", 180, 100), "Unfortunately, I have to tell you that you're obese.")
-
         );
     }
 
