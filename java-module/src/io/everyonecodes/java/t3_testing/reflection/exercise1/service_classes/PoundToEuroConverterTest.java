@@ -9,9 +9,9 @@ public class PoundToEuroConverterTest {
 
     @ParameterizedTest
     @CsvSource({
-            "1, 0.85",
-            "2, 1.7",
-            "3, 2.55"
+            "1, 1.1764705882352942",
+            "2, 2.3529411764705883",
+            "100, 117.64705882352942"
     })
 
     void converter(double input, double expected){
