@@ -15,7 +15,7 @@ public class Main {
 //    int diceRoll = min + random.nextInt((max - min) + 1);
 
 
-    //It is the same for both even or odd lists. 
+    //It is the same for both even or odd lists.
     public static String pickSecondHalfTEST(List<String> stringList){
         Random random =  new Random();
         if (stringList.size() % 2 == 0){
