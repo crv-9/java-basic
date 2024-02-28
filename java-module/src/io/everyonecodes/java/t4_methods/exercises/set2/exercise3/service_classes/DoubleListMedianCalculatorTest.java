@@ -29,5 +29,4 @@ public class DoubleListMedianCalculatorTest {
 
         assertEquals(expected, result);
     }
-
 }

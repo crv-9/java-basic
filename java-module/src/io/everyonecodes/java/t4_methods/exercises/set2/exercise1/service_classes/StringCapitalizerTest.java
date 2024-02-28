@@ -11,7 +11,8 @@ public class StringCapitalizerTest {
     @CsvSource({
             "carlos, Carlos",
             "kevin, Kevin",
-            "sarah, Sarah"
+            "sarah, Sarah",
+            "ali, Ali"
     })
     void capitalize(String input, String expected){
         StringCapitalizer stringCapitalizer = new StringCapitalizer();

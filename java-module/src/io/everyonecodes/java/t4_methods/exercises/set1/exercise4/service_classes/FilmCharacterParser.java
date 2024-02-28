@@ -7,7 +7,6 @@ import java.lang.reflect.Array;
 public class FilmCharacterParser {
     public static FilmCharacter parser(String fullName){
         String[] splitName = fullName.split(";",0);
-        FilmCharacter character = new FilmCharacter(splitName[0],splitName[1]);
-        return character;
+        return new FilmCharacter(splitName[0],splitName[1]);
     }
 }

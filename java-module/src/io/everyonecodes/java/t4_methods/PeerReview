@@ -1,0 +1,44 @@
+Peer review with Sarah, Ali & Kevin
+28.02.2024
+
+tl:dr;
+Main differences:
+1. Sarah and ALi are using Non-static Classes
+2.
+3.
+
+
+------------------
+Exercise-specific comparisons and comments
+------------------
+
+-- SET 1 --
+>> Exercise 1
+- Ali used a variable for the ending.
+-
+
+
+>> Exercise 3
+- Kevin had the same code
+- Ali checked if the list was even or odd
+
+>> Exercise 4
+- Ali uses substrings to compare the name and last name.
+- SArah uses CSV source and I used Method source
+
+-- SET 2 --
+>> Exercise 1
+- Sarah & Kevin used trim to remove last space.
+- Ali also used StringBuilder
+
+>> Exercise 2
+- for LineSumCalculator Kevin used a list as an input and not a string
+
+>> Exercise 3
+- Ali considered that the list would be empty; and used Double NaN
+
+>> Exercise 4
+- Sarah used a for loop, I used the .replaceAll()
+
+>> Exercise 5
+- 
