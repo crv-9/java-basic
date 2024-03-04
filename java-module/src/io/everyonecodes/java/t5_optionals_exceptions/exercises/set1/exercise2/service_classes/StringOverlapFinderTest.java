@@ -2,6 +2,7 @@ package io.everyonecodes.java.t5_optionals_exceptions.exercises.set1.exercise2.s
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.Optional;
@@ -27,5 +28,16 @@ public class StringOverlapFinderTest {
 
         assertTrue(result.isPresent());
         assertEquals(expected, result.get());
+    }
+
+    @ParameterizedTest
+    @CsvSource({
+            "carlos, roberto",
+            "glass, hour"
+    })
+    void findOverlapNoMatch(String firstString, String secondString){
+        Optional<String> result = stringOverlapFinder.findOverlap(firstString, secondString);
+
+        assertTrue(result.isEmpty());
     }
 }
