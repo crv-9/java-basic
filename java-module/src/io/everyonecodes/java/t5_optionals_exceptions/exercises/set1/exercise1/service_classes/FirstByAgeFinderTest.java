@@ -44,5 +44,4 @@ public class FirstByAgeFinderTest {
 
         assertTrue(oResult.isEmpty());
     }
-
 }
