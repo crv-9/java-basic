@@ -1,0 +1,41 @@
+Peer review with Sarah, Ali & Kevin
+07.03.2024
+
+tl:dr;
+Main differences:
+1. Sarah and ALi are using Non-static Classes
+2.
+3.
+
+
+------------------
+Exercise-specific comparisons and comments
+------------------
+
+-- SET 1 --
+>> Exercise 1
+1. Sarah: in her test she is creating the people before the stream method.
+
+
+>> Exercise 2
+1. Ali uses substrings and nested for loops
+
+>> Exercise 3
+1. Ali uses an additional 'else'
+2. Sarah uses only one Parameterized test
+
+>> Exercise 4
+1. Sarah used a loop to look for the value.
+2. ALi used Collections.max and Collections.min
+
+
+-- SET 2 --
+>> Exercise 1
+1. Ali adds all the input numbers and later adds 1 to the sum of input numbers.
+2. Sarah used a NumberFormatException nfe instead  of a general Exception 2
+
+>> Exercise 2
+1. Sarah uses list instead of an Array.
+
+>> Exercise 2
+1. Sarah uses ArrayIndexOutOfBoundsException e

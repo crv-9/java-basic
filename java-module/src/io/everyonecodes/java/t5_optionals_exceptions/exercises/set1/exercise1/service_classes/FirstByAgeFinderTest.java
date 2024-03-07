@@ -28,6 +28,7 @@ public class FirstByAgeFinderTest {
         Optional<Person> oResult = firstByAgeFinder.find(inputList, age);
 
         assertTrue(oResult.isPresent());
+        assertEquals(expected, oResult.get());
     }
 
     static Stream<Arguments> parameters_find2(){
