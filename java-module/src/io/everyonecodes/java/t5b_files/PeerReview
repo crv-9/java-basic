@@ -1,0 +1,22 @@
+
+
+Exercise 1
+- Ali is not returning Optional. he is returning null
+- Ali only tested for file being empty or not in DataReaderTest
+- I can improve my test if in the file one of the lines start with a semicolon
+
+Exercise 2
+- We skipped it in detail because we solved it during live coding and we didn;t have enoughh time
+- Sarah Trims the Parentheses directly in the split method to get the actual name.
+
+
+
+
+Exercise 3
+- Ali had an issue because he was not considering the quotes in the data
+- Sarah used a replace for removing the quotes. then she used a method to remove the quotes.
+
+
+Exercise 4
+- Sarah is throwing an error in case the list is empty. She also tests for empty list.
+- Sarah is adding two parameters whenever she writes, StandardOpenOption.APPEND & StandardOpenOption.CREATE

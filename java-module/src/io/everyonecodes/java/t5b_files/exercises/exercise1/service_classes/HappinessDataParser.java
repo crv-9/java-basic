@@ -15,6 +15,5 @@ public class HappinessDataParser {
                 // Do nothing, just skip object creation
                 return Optional.empty();
             }
-
     }
 }

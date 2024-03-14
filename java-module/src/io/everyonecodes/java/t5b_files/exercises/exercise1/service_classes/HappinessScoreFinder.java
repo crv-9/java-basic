@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class HappinessScoreFinder {
-    public static Optional<Double> find(List<HappinessRecord> recordsList, String name) throws NumberFormatException{
+    public static Optional<Double> find(List<HappinessRecord> recordsList, String name){
         for (HappinessRecord record: recordsList) {
             if (record.getCountry().equals(name)){
                 return Optional.of(record.getScore());
@@ -14,5 +14,4 @@ public class HappinessScoreFinder {
         }
         return Optional.empty();
     }
-
 }
