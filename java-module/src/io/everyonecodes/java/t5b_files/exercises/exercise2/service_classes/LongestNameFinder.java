@@ -16,6 +16,5 @@ public class LongestNameFinder {
         Collections.sort(characterList, Comparator.comparing(Character::getNameLength));
         Collections.reverse(characterList);
         return characterList.getFirst();
-
     }
 }
