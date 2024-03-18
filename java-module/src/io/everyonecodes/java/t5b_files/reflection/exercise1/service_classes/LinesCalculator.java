@@ -2,6 +2,7 @@ package io.everyonecodes.java.t5b_files.reflection.exercise1.service_classes;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class LinesCalculator {
 
@@ -17,9 +18,8 @@ public class LinesCalculator {
             } else {
                 List<Integer> currentIntList = parser.parseLine(currentString).get();
                 int currentSum = 0;
-                for (Integer number: currentIntList) {
-                    currentSum += number;
-                }
+                
+                Optional<Integer> result =  lineCalculator.calculateSum(currentIntList);
                 sumsList.add(String.valueOf(currentSum));
             }
         }
