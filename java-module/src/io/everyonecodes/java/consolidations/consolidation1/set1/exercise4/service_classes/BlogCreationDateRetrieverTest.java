@@ -23,7 +23,7 @@ public class BlogCreationDateRetrieverTest {
         return Stream.of(
                 Arguments.of(
                         new Website("firsturl.com", "firstcontent",
-                                Optional.of(
+
                                         new Blog("firstBlog",
                                                 List.of(
                                                         new Post("1.1. Post", "1.1. Content", new Date(1, 1, 2000), true),
@@ -32,7 +32,7 @@ public class BlogCreationDateRetrieverTest {
                                                 ),
                                                 new Date(1, 1, 2000)
                                         )
-                                )
+
                         ), new Date(1,1, 2000)
                 )
         );

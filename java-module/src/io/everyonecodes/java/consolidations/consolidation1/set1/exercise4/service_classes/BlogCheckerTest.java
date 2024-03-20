@@ -13,6 +13,7 @@ import java.util.Optional;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class BlogCheckerTest {
     BlogChecker checker = new BlogChecker();
@@ -20,7 +21,6 @@ public class BlogCheckerTest {
         return Stream.of(
                 Arguments.of(
                         new Website("firsturl.com", "firstcontent",
-                                Optional.of(
                                         new Blog("firstBlog",
                                         List.of(
                                                 new Post("1.1. Post", "1.1. Content", new Date(1, 1, 2000), true),
@@ -29,33 +29,32 @@ public class BlogCheckerTest {
                                         ),
                                         new Date(1, 1, 2000)
                                         )
-                                )
-                        ), true
+                        )
                 )
         );
     }
 
     @ParameterizedTest
     @MethodSource("parameters_hasBlog")
-    void hasBlogNormal(Website website, boolean expected) {
-        boolean result = checker.hasBlog(website);
+    void hasBlogNormal(Website website) {
+        Optional<Blog> result = checker.hasBlog(website);
 
-        assertEquals(expected, result);
+        assertTrue(result.isPresent());
     }
     static Stream<Arguments> parameters_hasNoBlog(){
         return Stream.of(
                 Arguments.of(
-                        new Website("secondurl.com", "secondcontent"),false
+                        new Website("secondurl.com", "secondcontent")
                 )
         );
     }
 
     @ParameterizedTest
     @MethodSource("parameters_hasNoBlog")
-    void hasNoBlog(Website website, boolean expected) {
-        boolean result = checker.hasBlog(website);
+    void hasNoBlog(Website website) {
+        Optional<Blog> result = checker.hasBlog(website);
 
-        assertEquals(expected, result);
+        assertTrue(result.isEmpty());
     }
 
 }

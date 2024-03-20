@@ -7,9 +7,9 @@ import java.util.Optional;
 public class Website {
     String url;
     String content;
-    Optional<Blog> blog;
+    Blog blog;
 
-    public Website(String url, String content, Optional<Blog> blog) {
+    public Website(String url, String content, Blog blog) {
         this.url = url;
         this.content = content;
         this.blog = blog;
@@ -28,7 +28,7 @@ public class Website {
         return content;
     }
 
-    public Optional<Blog> getBlog() {
+    public Blog getBlog() {
         return blog;
     }
 }

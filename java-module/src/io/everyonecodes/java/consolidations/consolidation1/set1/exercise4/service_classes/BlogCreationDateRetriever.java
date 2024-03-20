@@ -9,8 +9,8 @@ public class BlogCreationDateRetriever {
     BlogChecker checker = new BlogChecker();
     public Optional<Date> retrieve(Website website){
 
-        if (checker.hasBlog(website)){
-            return Optional.of(website.getBlog().get().getDateCreated());
+        if (checker.hasBlog(website).isPresent()){
+            return Optional.of(website.getBlog().getDateCreated());
         } else {
             return Optional.empty();
         }
