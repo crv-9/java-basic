@@ -13,7 +13,7 @@ public class SpecialNumbersCounterTest {
     @ParameterizedTest
     @CsvSource({
             "333, 3",
-            "123, 1",
+            "0123, 1",
             "-369, 3",
             "458, 0",
             "0,0",

@@ -1,0 +1,43 @@
+Peer review with Sarah & Kevin
+22.02.2024
+
+tl:dr;
+Main differences:
+1.
+2.
+3.
+
+
+------------------
+Exercise-specific comparisons and comments
+------------------
+
+Set 1
+
+Exercise 1
+- Kevin and Sarah used a String for first class, I used a boolean
+
+Exercise 2
+- we use the same logic, but still with the difference that I use boolean for first class
+
+Exercise 3
+- no differences
+
+Exercise 4
+- Sarah uses the ternery operator
+
+Set 2
+
+Exercise 1
+- Kevin uses the .charAt to go through each character in the string
+- Sarah uses a regex in .split to get each character of a String
+
+Exercise 2
+- same
+
+Exercise 3
+- same
+
+Exercise 4
+- Kevin uses code for negative numbers in test.
+- Sarah and mine doesn't work with negative numbers.
