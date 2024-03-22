@@ -13,14 +13,14 @@ public class SongGatherer {
     public static List<NewSong> gatherNewSongList(){
         List<NewSong> songList = new ArrayList<>(List.of());
 
-        System.out.println("Please enter a song title.");
+        boolean shouldGetMoreSongs = true;
 
+        while (shouldGetMoreSongs){
+            songList.add(getSong());
+            System.out.println("Add another song?");
+            shouldGetMoreSongs = shouldContinue("Please enter 'true' or 'false");
 
-
-        songList.add(getSong());
-
-//        isContinue();
-
+        }
         return songList;
     }
 
@@ -30,22 +30,17 @@ public class SongGatherer {
         int duration = 0;
         double rating = 0.0;
 
-
+        System.out.println("Please enter a song title.");
         title = getTitle();
 
-        try {
-            System.out.println("Please enter the song's duration in seconds.");
-            duration = getDuration();
-        } catch (InputMismatchException ime){
-            System.out.println("This is not a valid duration. Please try again.");
-            duration = getDuration();
-        }
+        System.out.println("Please enter the song's duration in seconds:");
+        duration = getDuration("this is not a valid duration. Please try again.");
 
-        rating = getRating();
+        System.out.println("Please enter the song's rating, which should be between 1 and 5 stars. Decimals are allowed.");
+        rating = getRating("This is not a valid rating. Please try again.");
 
 
         return new NewSong(title, duration, rating);
-
 
     }
 
@@ -56,26 +51,37 @@ public class SongGatherer {
         return title;
     }
 
-    private static int getDuration(){
-        Scanner userInput = new Scanner(System.in);
-        int seconds = userInput.nextInt();
-
-        return seconds;
+    private static int getDuration(String errorMessage){
+        while(true){
+            Scanner userInput = new Scanner(System.in);
+            try{
+                return userInput.nextInt();
+            }catch (InputMismatchException ime){
+                System.out.println(errorMessage);
+            }
+        }
     }
 
-    private static double getRating(){
-        Scanner userInput = new Scanner(System.in);
-        System.out.println("Please enter the song's rating, which should be between 1 and 5 stars. Decimal numbers are allowed.");
-        double rating = userInput.nextDouble();
-
-        return rating;
+    private static double getRating(String errorMessage){
+        while(true){
+            Scanner userInput = new Scanner(System.in);
+            try {
+                return userInput.nextDouble();
+            } catch (InputMismatchException ime){
+                System.out.println(errorMessage);
+            }
+        }
     }
 
-    private static  boolean isContinue(){
-        Scanner userInput = new Scanner(System.in);
+    private static  boolean shouldContinue(String errorMessage){
+        while (true){
+            Scanner userInput = new Scanner(System.in);
 
-        System.out.println("Add another song?");
-        boolean toContinue = userInput.nextBoolean();
-        return toContinue;
+            try {
+                return userInput.nextBoolean();
+            } catch (InputMismatchException ime){
+                System.out.println(errorMessage);
+            }
+        }
     }
 }
