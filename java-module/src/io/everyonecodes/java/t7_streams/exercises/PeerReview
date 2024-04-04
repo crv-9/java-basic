@@ -1,0 +1,30 @@
+
+Set 1
+Exercise 1
+- we all had the same
+
+Exercise 2
+- Ali used a @Parameterizedtest
+- the rest we had the same
+
+Exercise 3
+- Sarah & Kevin use the .map(String :: toString)
+- Ali & I use the .map(String :: valueOf)
+
+Exercise 4
+
+Exercise 5
+- we all had the same
+- Ali makes all the strings lowercase
+
+Set 2
+Exercise 1
+- I used .count() why do I get a Long?
+- I casted the whole stream into int
+- Kevin casts everything into an int
+
+Exercise 2
+- All the same
+
+Exercise 3
+- Kevin uses Lambdas, I used method references
