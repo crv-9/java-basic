@@ -36,5 +36,10 @@ public class Application {
         //Should print the grade.
         gradeAdministrator.printGrade(samuel, Subject.GERMAN);
 
+        // extra
+
+        gradeAdministrator.printAllGrades(max);
+        gradeAdministrator.printAllGrades(samuel);
+
     }
 }

@@ -49,7 +49,14 @@ public class GradeAdministrator {
     }
 
     // extra - just for fun
+    // it will print all grades for this student
     public void printAllGrades(Student student){
         String username = student.getLastName()+student.getFirstName();
+
+        if (userStudentMap.containsKey(username)){
+            System.out.println(userStudentMap.get(username).getFirstName() + " " + userStudentMap.get(username).getLastName() + " has the following grades in the system:");
+            userStudentMap.get(username).getGradesMap()
+                    .forEach((key, value) -> System.out.println("Subject: " + key.getName() + "-- Grade: " + value.getNumber()));
+        }
     }
 }
