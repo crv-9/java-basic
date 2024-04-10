@@ -12,10 +12,6 @@ import java.util.Map;
 * */
 
 public class ListElementCounter {
-//
-//    private Map<Integer, Integer> numbers;
-//    private Map<String, Integer> words;
-
 
     public static Map<Integer, Integer> countNumbers(List<Integer> integerList){
         Map<Integer, Integer> numberAndCount = new HashMap<>();

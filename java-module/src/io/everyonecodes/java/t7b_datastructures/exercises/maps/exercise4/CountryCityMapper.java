@@ -15,17 +15,17 @@ import java.util.Map;
 
 public class CountryCityMapper {
 
-    private Map<String, String> citiesAndCountries = new HashMap<>();
+    private Map<String, String> citiesAndCountriesMap = new HashMap<>();
 
     public void addCityToCountry(String countryName, String cityName){
-        citiesAndCountries.put(cityName, countryName);
+        citiesAndCountriesMap.put(cityName, countryName);
     }
 
     public void printCities(String countryInput){
 
-            if (citiesAndCountries.containsValue(countryInput)){
+            if (citiesAndCountriesMap.containsValue(countryInput)){
                 System.out.println(countryInput + " has the following cities: ");
-                citiesAndCountries.entrySet().stream()
+                citiesAndCountriesMap.entrySet().stream()
                         .filter(pair->pair.getValue().equals(countryInput))
                         .forEach(pair -> System.out.println(pair.getKey()));
             } else {
