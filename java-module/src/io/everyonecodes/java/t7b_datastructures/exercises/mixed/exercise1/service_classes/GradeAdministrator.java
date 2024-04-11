@@ -23,8 +23,8 @@ public class GradeAdministrator {
 
         if (userStudentMap.containsKey(username)){
             userStudentMap.get(username).addSubjectGrade(subject, grade);
-        } else {// I decided it was not necessary to throw any error/exception
-            System.out.println( student.getFirstName()+ " " + student.getLastName() + " is not registered in the system, you can't assign a grade.");
+        } else {// I decided it was not necessary to throw any error/exception - and I then added it
+            throw new IllegalArgumentException(student.getFirstName()+ " " + student.getLastName() + " is not registered in the system, you can't assign a grade.");
         }
     }
 

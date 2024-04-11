@@ -10,8 +10,6 @@ public class NumberGuesser {
         Scanner userInput = new Scanner(System.in);
         int numberToGuess = generateRandomNumber();
 
-
-
         Set<Integer> userInputNumbers = new HashSet<>();
 
         boolean userGuessed = false;
@@ -37,7 +35,7 @@ public class NumberGuesser {
     }
 
     private static int generateRandomNumber(){
-        return (int)(Math.random() * ((14) + 1));
+        return (int)(Math.random() * (15));
     }
 
     private static boolean inputNumberIsSmaller(int numberToGuess, int inputNumber){

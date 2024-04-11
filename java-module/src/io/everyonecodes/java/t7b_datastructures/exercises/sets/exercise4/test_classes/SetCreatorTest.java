@@ -24,7 +24,6 @@ public class SetCreatorTest {
     List<Integer> twoCommonRepeatedA = new ArrayList<>(List.of(1,1,1,2,3));
     List<Integer> twoCommonRepeatedB = new ArrayList<>(List.of(2, 2, 3,4));
 
-
     @Test
     void getCommonNumbers_emptyLists(){
 
