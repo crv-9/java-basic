@@ -1,0 +1,100 @@
+Peer review with Sarah, Ali & Kevin
+11.04.2024
+
+tl:dr;
+Main differences:
+1.
+2.
+3.
+
+
+------------------
+Exercise-specific comparisons and comments
+------------------
+
+---> Maps set
+
+>> Exercise 1
+- Ali used a string, the rest used a list of strings for input
+-
+-
+
+
+>> Exercise 2
+- All the same
+- Ali tests for Null for a third user
+-
+
+
+>> Exercise 3
+- to count the amount of similar numbers/words we approached it differently:
+-- Ali used a set
+-- Kevin used a collections.frequency
+-- Sarah used a for loop
+-- I used a stream
+
+
+>> Exercise 4
+- Kevin & Sarah used a list inside the map
+- Ali & I used the city as they key and the country as value
+
+
+
+---> Sets set
+
+>> Exercise 1
+- Sarah returns a set, the rest we return a list
+-
+-
+
+
+>> Exercise 2
+-
+-
+-
+
+
+>> Exercise 3
+- Sarah calculated everything in one same method
+- I split it into methods
+-
+
+
+>> Exercise 4
+- Sarah used streams
+- I used for loops
+-
+
+
+
+---> Enums set
+
+>> Exercise 1
+- Ali & Sarah used a switch statement
+-
+-
+
+
+>> Exercise 2
+-
+-
+-
+
+
+>> Exercise 3
+- Sarah used if else
+- Kevin used a nested switch
+- I used a mpa
+
+
+---> Mixed set
+>> Exercise 1
+-
+-
+-
+
+
+>> Exercise 2
+- Ali & Kevin used a tree.map , i used a stream and sorted with Map.Entry.comparingByKey()
+-
+-
