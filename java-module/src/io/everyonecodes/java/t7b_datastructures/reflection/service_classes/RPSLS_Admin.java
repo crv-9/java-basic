@@ -40,7 +40,7 @@ public class RPSLS_Admin {
             )
     );
 
-    
+
     public boolean checkCorrectInput(String userInput){
         return legalMoves.contains(userInput);
     }
