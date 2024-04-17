@@ -1,28 +1,25 @@
 package io.everyonecodes.java.practice_coding_contest.honey_comb.level1;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CellCounterTest {
+public class OutputWriterLevel1Test {
     CellCounter counter = new CellCounter();
     LineReader reader = new LineReader();
     OutputWriter writer = new OutputWriter();
 
 
 // reading file
-    String filePathString = "src/io/everyonecodes/java/practice_coding_contest/honey_comb/files/level1/level1_5.in";
+    String filePathString = "src/io/everyonecodes/java/practice_coding_contest/honey_comb/level1/files/level1_5.in";
     Path filePath = Path.of(filePathString);
 
 // writing file
-    String outputFilePathString = "src/io/everyonecodes/java/practice_coding_contest/honey_comb/files/level1/level1_5_answer.txt";
+    String outputFilePathString = "src/io/everyonecodes/java/practice_coding_contest/honey_comb/level1/files/level1_5_answers.in";
     Path outputFilePath = Path.of(outputFilePathString);
 
 
