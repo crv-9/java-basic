@@ -15,9 +15,14 @@ public class Calculator {
     public static Optional<Double> calculate(String userInput){
 
         String[] strings = userInput.trim().split("\\s+");
+
+        if (Character.isDigit(Integer.parseInt(strings[0])));
+
+
         double number1 = Double.parseDouble(strings[0]);
         double number2 = Double.parseDouble(strings[2]);
         String symbol = strings[1];
+
 
         if (operators.get().contains(symbol)){
             double result = 0;

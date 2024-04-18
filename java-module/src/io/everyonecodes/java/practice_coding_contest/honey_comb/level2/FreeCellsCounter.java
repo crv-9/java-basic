@@ -13,7 +13,7 @@ public class FreeCellsCounter {
         int amountOfHoneyCombs = getAmountOfCombs(fileLines);
 
         List<List<String>> allHoneyCombs = getHoneyCombs(fileLines);
-
+        // I need to skip the first line as it has the amount of honeycombs
         for (int i = 1; i < allHoneyCombs.size(); i++) {
 
             outputStringList.add(singleCombChecker.countCombFreeCells(allHoneyCombs.get(i)));

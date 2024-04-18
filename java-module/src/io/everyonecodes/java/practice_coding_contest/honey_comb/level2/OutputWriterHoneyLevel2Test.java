@@ -1,29 +1,29 @@
 package io.everyonecodes.java.practice_coding_contest.honey_comb.level2;
 
 import io.everyonecodes.java.practice_coding_contest.honey_comb.level1.LineReader;
-import io.everyonecodes.java.practice_coding_contest.honey_comb.level1.OutputWriter;
+import io.everyonecodes.java.practice_coding_contest.honey_comb.level1.OutputWriterHoney;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.List;
 
-public class OutputWriterLevel2Test {
+public class OutputWriterHoneyLevel2Test {
 
     // classes used in logic
     FreeCellsCounter freeCellsCounter = new FreeCellsCounter();
 
     // reader & writer
     LineReader reader = new LineReader();
-    OutputWriter writer = new OutputWriter();
+    OutputWriterHoney writer = new OutputWriterHoney();
 
 
     // reading file
-    String filePathString = "src/io/everyonecodes/java/practice_coding_contest/honey_comb/level2/files/level2_5.in";
+    String filePathString = "src/io/everyonecodes/java/practice_coding_contest/honey_comb/level2/files/level2_2.in";
     Path filePath = Path.of(filePathString);
 
     // writing file
-    String outputFilePathString = "src/io/everyonecodes/java/practice_coding_contest/honey_comb/level2/files/level2_5_answer.txt";
+    String outputFilePathString = "src/io/everyonecodes/java/practice_coding_contest/honey_comb/level2/files/level2_2_answer.txt";
     Path outputFilePath = Path.of(outputFilePathString);
 
     @Test

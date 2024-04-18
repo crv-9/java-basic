@@ -10,16 +10,16 @@ public class ThiefAttemptCounterTest {
 
     @Test
     void counterAdvanced(){
-        int result = counter.countAttempts(new Safe(10), new AdvancedThief());
+        int result = counter.countAttempts(new Safe(12), new AdvancedThief());
 
-        assertEquals(5, result);
+        assertEquals(6, result);
 
     }
     @Test
     void counterBeginner(){
-        int result = counter.countAttempts(new Safe(10), new BeginnerThief());
+        int result = counter.countAttempts(new Safe(12), new BeginnerThief());
 
-        assertEquals(10, result);
+        assertEquals(12, result);
 
     }
 }

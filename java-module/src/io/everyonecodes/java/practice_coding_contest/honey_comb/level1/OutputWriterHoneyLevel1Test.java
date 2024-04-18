@@ -8,10 +8,10 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class OutputWriterLevel1Test {
+public class OutputWriterHoneyLevel1Test {
     CellCounter counter = new CellCounter();
     LineReader reader = new LineReader();
-    OutputWriter writer = new OutputWriter();
+    OutputWriterHoney writer = new OutputWriterHoney();
 
 
 // reading file

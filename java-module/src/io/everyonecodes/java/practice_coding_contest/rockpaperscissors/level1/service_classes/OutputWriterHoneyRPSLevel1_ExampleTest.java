@@ -1,7 +1,7 @@
 package io.everyonecodes.java.practice_coding_contest.rockpaperscissors.level1.service_classes;
 
 import io.everyonecodes.java.practice_coding_contest.honey_comb.level1.LineReader;
-import io.everyonecodes.java.practice_coding_contest.honey_comb.level1.OutputWriter;
+import io.everyonecodes.java.practice_coding_contest.honey_comb.level1.OutputWriterHoney;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -12,11 +12,11 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class OutputWriterRPSLevel1_ExampleTest {
+public class OutputWriterHoneyRPSLevel1_ExampleTest {
     RPSAdmin rpsAdmin = new RPSAdmin();
 
     LineReader reader = new LineReader();
-    OutputWriter writer = new OutputWriter();
+    OutputWriterHoney writer = new OutputWriterHoney();
 
 
     // reading file
@@ -51,7 +51,7 @@ public class OutputWriterRPSLevel1_ExampleTest {
     @Test
     void writerCreatesExpectedFile() throws IOException {
         List<String> fileLines = reader.readLines(exampleInputPath);
-        List<String> outputStringList = rpsAdmin.getStyles(fileLines);
+        List<String> outputStringList = rpsAdmin.getLineStyles(fileLines);
 
         writer.writeOutputFile(outputStringList, outputFilePath);
 
