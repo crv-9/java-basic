@@ -18,7 +18,7 @@ public class MoneyAdmin {
     }
 
 
-    // find the smalled number taht doesn't exist in the
+    // find the smalled number that doesn't exist in the
     public static String calculateTheAmountOfCoins(String line){
         char[] numbers = line.toCharArray();
 
