@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class AnimalsContainSTest {
+public class AnimalContainSTest {
     String initialFilePathString = "src/io/everyonecodes/java/t7_streams/exercises/set2/files/animals.txt";
     Path initialFilePath = Path.of(initialFilePathString);
     String destinationFilePathString = "src/io/everyonecodes/java/t7_streams/exercises/set2/files/animals-s.txt";
