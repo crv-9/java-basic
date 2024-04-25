@@ -13,10 +13,7 @@ public abstract class Claim {
     public String generateReport(){
         String report = "Report for: " + person.firstName + " " + person.lastName + ", policy number " + person.policyNumber + "\n"+
                 "    Estimated cost of damages: " + estimatedDamagesCost +"\n";
-
-
         return report;
-
     }
 
 }

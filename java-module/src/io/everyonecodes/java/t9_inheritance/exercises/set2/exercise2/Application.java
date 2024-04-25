@@ -6,8 +6,6 @@ import java.util.List;
 public class Application {
     public static void main(String[] args) {
         ReportPrinter printer = new ReportPrinter();
-
-
         List<Claim> claimList = new ArrayList<>();
 
         Person examplePerson = new Person("John", "Smith", 5678);
