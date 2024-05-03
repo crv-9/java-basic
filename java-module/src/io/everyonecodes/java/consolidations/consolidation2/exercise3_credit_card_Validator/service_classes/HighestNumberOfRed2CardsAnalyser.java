@@ -1,8 +1,8 @@
-package io.everyonecodes.java.consolidations.consolidation2.exercise3.service_classes;
+package io.everyonecodes.java.consolidations.consolidation2.exercise3_credit_card_Validator.service_classes;
 
-import io.everyonecodes.java.consolidations.consolidation2.exercise3.data_classes.Card;
-import io.everyonecodes.java.consolidations.consolidation2.exercise3.data_classes.CardSequenceAnalyser;
-import io.everyonecodes.java.consolidations.consolidation2.exercise3.data_classes.Color;
+import io.everyonecodes.java.consolidations.consolidation2.exercise3_credit_card_Validator.data_classes.Card;
+import io.everyonecodes.java.consolidations.consolidation2.exercise3_credit_card_Validator.data_classes.CardSequenceAnalyser;
+import io.everyonecodes.java.consolidations.consolidation2.exercise3_credit_card_Validator.data_classes.Color;
 
 import java.util.List;
 

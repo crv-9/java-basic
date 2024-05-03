@@ -1,12 +1,12 @@
-package io.everyonecodes.java.consolidations.consolidation2.exercise4;
+package io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates;
 
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.constant_classes.False;
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.constant_classes.True;
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.one_input_classes.NotGate;
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.two_input_classes.AndGate;
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.two_input_classes.NandGate;
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.two_input_classes.NorGate;
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.two_input_classes.XorGate;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.constant_classes.False;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.constant_classes.True;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.one_input_classes.NotGate;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.two_input_classes.AndGate;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.two_input_classes.NandGate;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.two_input_classes.NorGate;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.two_input_classes.XorGate;
 
 public class Application {
 

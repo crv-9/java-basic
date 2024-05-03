@@ -1,8 +1,8 @@
-package io.everyonecodes.java.consolidations.consolidation2.exercise4.test_classes;
+package io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.test_classes;
 
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.constant_classes.False;
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.constant_classes.True;
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.one_input_classes.NotGate;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.constant_classes.False;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.constant_classes.True;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.one_input_classes.NotGate;
 import org.junit.jupiter.api.Test;
 
 public class OneInputCircuitTest {

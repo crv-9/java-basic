@@ -1,6 +1,6 @@
-package io.everyonecodes.java.consolidations.consolidation2.exercise4.two_input_classes;
+package io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.two_input_classes;
 
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.CircuitElement;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.CircuitElement;
 
 public class AndGate extends TwoInputCircuit{
 

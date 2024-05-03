@@ -1,11 +1,11 @@
-package io.everyonecodes.java.consolidations.consolidation2.exercise4.test_classes;
+package io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.test_classes;
 
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.constant_classes.False;
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.constant_classes.True;
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.two_input_classes.AndGate;
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.two_input_classes.NandGate;
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.two_input_classes.NorGate;
-import io.everyonecodes.java.consolidations.consolidation2.exercise4.two_input_classes.OrGate;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.constant_classes.False;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.constant_classes.True;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.two_input_classes.AndGate;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.two_input_classes.NandGate;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.two_input_classes.NorGate;
+import io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.two_input_classes.OrGate;
 import org.junit.jupiter.api.Test;
 
 public class TwoInputCircuitTest {

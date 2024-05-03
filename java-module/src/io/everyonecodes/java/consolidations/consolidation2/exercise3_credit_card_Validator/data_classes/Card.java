@@ -1,4 +1,4 @@
-package io.everyonecodes.java.consolidations.consolidation2.exercise3.data_classes;
+package io.everyonecodes.java.consolidations.consolidation2.exercise3_credit_card_Validator.data_classes;
 
 
 /*The class Card, which represents a UNO card.

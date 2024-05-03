@@ -1,4 +1,4 @@
-package io.everyonecodes.java.consolidations.consolidation2.exercise4.constant_classes;
+package io.everyonecodes.java.consolidations.consolidation2.exercise4_logic_gates.constant_classes;
 
 public class False extends Constant{
 

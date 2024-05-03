@@ -1,4 +1,4 @@
-package io.everyonecodes.java.consolidations.consolidation2.exercise3.service_classes;
+package io.everyonecodes.java.consolidations.consolidation2.exercise3_credit_card_Validator.service_classes;
 
 import java.io.IOException;
 import java.nio.file.Files;

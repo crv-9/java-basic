@@ -1,6 +1,6 @@
-package io.everyonecodes.java.consolidations.consolidation2.exercise3;
+package io.everyonecodes.java.consolidations.consolidation2.exercise3_credit_card_Validator;
 
-import io.everyonecodes.java.consolidations.consolidation2.exercise3.service_classes.*;
+import io.everyonecodes.java.consolidations.consolidation2.exercise3_credit_card_Validator.service_classes.*;
 
 import java.util.List;
 
