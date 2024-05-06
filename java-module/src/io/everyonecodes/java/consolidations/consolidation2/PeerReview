@@ -1,0 +1,19 @@
+Exercise 1
+- In application:
+- Sarah uses a stream to print all vehicles
+- Kevin creates the stations step by step, instead of only one line.
+- Kevin & I use a for loop to print them
+- In abstract class PublicTransportVehicle
+- Sarah used a stream to get the toString from each vehicle description.
+
+
+Exercise 2
+- Sarah used an enum for the credit cards
+- I applied the credit cart types directly in the logic
+- Kevin has a very lean CreditCardChecker class as he created a new class for the Luhn Algorithm.
+
+
+Exercise 3
+- Sarah used a stream to count red and blue cards - looks very lean
+- I used a for loop for counting them
+
